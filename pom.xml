@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.illusia</groupId>
     <artifactId>api</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>Illusia Books API</name>
     <description>Illusia Books API</description>
     <properties>
