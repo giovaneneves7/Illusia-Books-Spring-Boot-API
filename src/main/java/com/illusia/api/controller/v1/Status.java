@@ -14,6 +14,14 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class Status {
 
+    /**
+     * @author Giovane Neves
+     * Since v0.0.1
+     * Created 22/08/2023 10:37 AM
+     *
+     * Returns OK status if the API is online
+     * @return a response with status 200 (OK).
+     */
     @GetMapping(path = "/status")
     public ResponseEntity<?> getStatus(){
 
