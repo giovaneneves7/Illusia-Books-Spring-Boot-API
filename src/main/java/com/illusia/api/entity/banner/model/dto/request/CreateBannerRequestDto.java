@@ -5,7 +5,7 @@ import com.illusia.api.entity.banner.model.Banner;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
-public record CreateBannerDto(
+public record CreateBannerRequestDto(
 
         @NotNull(message = "Banners's name can't be Null")
         @NotBlank(message = "Banner's name can't be Blank")
@@ -26,6 +26,6 @@ public record CreateBannerDto(
                 banner.setName(this.name);
                 banner.setDescription(this.description);
                 banner.setUrl(this.url);
-                
+
         }
 }
